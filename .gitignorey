@@ -1,0 +1,40 @@
+# ── Python bytecode / caches ─────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Virtual environments ────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Distribution / packaging ────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── PyInstaller / executable builds ─────────────────────
+*.spec
+
+# ── Jupyter / IPython ──────────────────────────────────
+.ipynb_checkpoints
+
+# ── OS / system files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs / temporary files ─────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── Data / test images ─ optional if you want to keep outside Git
+# Uncomment the next line if you plan to keep large sample images outside repo
+# data/
+
+# ── IDE / editor folders ───────────────────────────────
+.vscode/
+.idea/
